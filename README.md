@@ -10,7 +10,7 @@
 📦 بدون وابستگی به کلاینت خاص: ترافیک هر نوع ابزار یا سرویس را می‌توان از طریق تونل عبور داد.
 # اسکریپت نصب 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/amir-kr/Evara_Tunnel/blob/main/setup-bot.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/amir-kr/Evara_Tunnel/main/setup-bot.sh)
 ```
 # اجرای دوباره اسکریپت 
 ```
