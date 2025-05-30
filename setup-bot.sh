@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-MAIN_PY_URL="https://raw.githubusercontent.com/amir-kr/Evara_Tunnel/blob/main/tunnel-m.py"
+MAIN_PY_URL="https://raw.githubusercontent.com/amir-kr/Evara_Tunnel/main/tunnel-m.py"
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
