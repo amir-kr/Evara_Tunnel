@@ -12,9 +12,6 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.utils.markdown import escape_md
 from config import API_TOKEN, ADMIN_ID, ALLOWED_USER_IDS
 
-# تنظیم لاگ‌گیری
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
 
 storage = MemoryStorage()
 bot = Bot(token=API_TOKEN)
@@ -165,7 +162,6 @@ async def start_command(message: types.Message, state: FSMContext):
         
     )
     try:
-        logger.info(f"Sending welcome message: {welcome_msg}")
         await bot.send_message(
             chat_id=message.chat.id,
             text=welcome_msg,
