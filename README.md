@@ -16,3 +16,5 @@
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/amir-kr/Evara_Tunnel/main/setup-bot.sh)
 ```
+ ## اجرای دوباره 
+```
