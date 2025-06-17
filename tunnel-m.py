@@ -182,9 +182,7 @@ async def start_command(message: types.Message, state: FSMContext):
     
     welcome_msg = (
         escape_md("به ربات تانل اوارا خوش اومدی 😍\n") +
-        escape_md("برای حمایت از ما به پروژه داخل ") +
-        "[GitHub](https://github.com/evara/tunnel)" +
-        escape_md(" ستاره بدین و عضو چنل ما بشین: ") +
+        escape_md("  عضو چنل ما بشین : ") +
         "[@evara_tu](https://t.me/evara_tu)"
     )
     try:
