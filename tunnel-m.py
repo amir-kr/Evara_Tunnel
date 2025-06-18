@@ -196,7 +196,7 @@ async def start_command(message: types.Message, state: FSMContext):
         await bot.send_message(
             chat_id=message.chat.id,
             text=escape_md(f"به ربات تانل اوارا خوش اومدی 😍\n"
-        "برای حمایت از ما به پروژه داخل [GitHub] (https://github.com/evara/tunnel)  ستاره بدین و عضو چنل ما بشین: کانال تلگرام (https://t.me/evara_tu) /start"),
+        " عضو چنل ما بشین: کانال تلگرام پشتیبانی:https://t.me/amirkohr   (https://t.me/evara_tu) /start"),
             reply_markup=get_main_menu_keyboard(),
             parse_mode="MarkdownV2"
         )
